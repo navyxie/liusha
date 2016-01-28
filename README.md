@@ -67,7 +67,8 @@ liusha.exists(orderId,function(err,data){
 success:判断充值订单是否成功到账
 
 ```js
-liusha.success(orderId,function(err,data){
+//status 为可选(默认是2)，0表示充值失败，1表示充值中，2表示充值成功
+liusha.success(orderId,status,function(err,data){
 	//todo
 });
 ```
