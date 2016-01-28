@@ -1,0 +1,19 @@
+{
+	"name": "liusha",
+	"description": "流沙流量充值接口",
+	"version": "0.0.1",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/navyxie/liusha.git"
+	},
+	"keywords": ["联通","流量","充值"],
+	"homepage": "https://github.com/navyxie/liusha",
+	"bugs": {
+		"url": "https://github.com/navyxie/liusha/issues"
+	},
+	"dependencies": {
+		"request":">=2.67.0",
+		"lodash":">=3.10.1"
+	}
+}
